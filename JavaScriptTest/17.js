@@ -12,8 +12,7 @@ function ConvertUnicodeToHyphen(execString){
 	execString = execString.replace(/--+/g,"-");
 	ecString = execString.replace(/[eéèẻẽẹêếềểễệ]/g,"e");
 	execString = execString.replace(/[uúùủũụưứừửữự]/g,"u");
-	ecString = execString.replace(/[eéèẻẽẹêếềểễệ]/g,"e");
-	execString = execString.replace(/[uúùủũụưứừửữự]/g,"u");
+
 	return execString;
 }
 
